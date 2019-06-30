@@ -1,0 +1,19 @@
+sso:
+  app-url: http://localhost:9091
+  sso-url: http://localhost:9090/appLogin
+  tokenCheck-url: http://localhost:9090/tokenCheck
+  keyCheck-url: http://localhost:9090/keyCheck
+server:
+  port: 9091
+
+spring:
+  thymeleaf:
+    cache: false
+    enabled: true
+    prefix: classpath:/templates/
+    suffix: .html
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://140.143.189.239:3306/demo?characterEncoding=utf8&useSSL=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: 970626

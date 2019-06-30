@@ -1,0 +1,17 @@
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>新评论</title>
+</head>
+<body>
+<!--<h1>Hello !</h1>-->
+<!--<p>Welcome to <span th:text="${appName}">Our App</span></p>-->
+<form action="/comment" method="post">
+    <!--    book_id:<input type="text" id="id" name="id">-->
+    <h3>添加评论</h3><br>
+    文章id:<input type="text" name="articleId">
+    评论内容:<input type="text" name="content">
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head><title>Home Page</title></head>
+<body>
+<h1>sign in</h1>
+<!--<p>Welcome to <span th:text="${appName}">Our App</span></p>-->
+<form action="/loginApi" method="post">
+    <!--    book_id:<input type="text" id="id" name="id">-->
+    username:<input type="text" name="username">
+    password:<input type="password"  name="password">
+    <input type="submit" value="submit">
+</form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>新的文章</title>
+</head>
+<body>
+<!--<h1>Hello !</h1>-->
+<!--<p>Welcome to <span th:text="${appName}">Our App</span></p>-->
+<form action="/article" method="post">
+    <!--    book_id:<input type="text" id="id" name="id">-->
+    <h3>创建文章</h3><br>
+    文章标题:<input type="text" name="title"><br><br>
+    文章内容:<input type="text" name="content"><br><br>
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>

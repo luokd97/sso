@@ -1,0 +1,15 @@
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>SSO登录页</title>
+</head>
+<body>
+<h1>登录</h1>
+<!--<p>Welcome to <span th:text="${appName}">Our App</span></p>-->
+<form action="/loginApi" method="post">
+    用户名:<input type="text" name="username">
+    密码:<input type="password"  name="password">
+    <input type="submit" value="登录">
+</form>
+</body>
+</html>
